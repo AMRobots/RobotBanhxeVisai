@@ -7,6 +7,10 @@ Robot bánh xe vi sai là loại robot bánh xe được cấu trúc:
 
 Project này tạo robot bánh xe vi sai, mô phỏng trên gazebo và điều khiển chuyển động thông qua bàn phím.
 
+Điều khiển robot bằng bàn phím:
+
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/1YyMsB44veo/mq3.jpg?sqp=COqw1vMF&rs=AOn4CLBN_35wmooLfbZJvmgOjNGBIeq4Ow)](https://youtu.be/1YyMsB44veo)
+
 # Mô phỏng điều khiển chuyển động trên Gazebo
 - Hiển thị trên Gazebo:
 ```bash
