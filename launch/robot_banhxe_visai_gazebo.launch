@@ -9,12 +9,17 @@
   <arg name="debug" default="false"/>
 
   <!-- Truyền argument tới empty_world.launch (tệp chạy gazebo) -->
+  <!-- <include file="$(find gazebo_ros)/launch/willowgarage_world.launch">
+  </include> -->
+
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="debug" value="$(arg debug)" />
-    <arg name="gui" value="$(arg gui)" />
-    <arg name="paused" value="$(arg paused)"/>
-    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
-    <arg name="headless" value="$(arg headless)"/>
+    <!-- <arg name="world_name" value="$(find robot_banhxe_visai)/world/myroom.sdf"/>  -->
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/> <!-- Inert - see gazebo_ros_pkgs issue #491 -->
+    <arg name="recording" value="false"/>
+    <arg name="debug" value="false"/>
   </include>
 
   <!-- Convert xacro -> urdf, lưu kết quả trong Parameter Server
